@@ -1,0 +1,562 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMWv3kkxIijCtP+6+iowNuf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aminsmart-1994/Amin_smart/blob/main/part_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Here is a comprehensive Python training syllabus that covers the basics of the language as well as some advanced topics:"
+      ],
+      "metadata": {
+        "id": "DXvjZfoOpMTu"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1- Introduction to Python\n",
+        "- History and versions of Python\n",
+        "- Setting up a development environment\n",
+        "- Basic syntax and data types\n",
+        "- Variables and operators\n",
+        "- Control structures (if-else, for, while)"
+      ],
+      "metadata": {
+        "id": "REE53UaJ3hBj"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2- Data Structures\n",
+        "- Lists, tuples, and dictionaries\n",
+        "- Sets and frozensets\n",
+        "- Strings and string formatting"
+      ],
+      "metadata": {
+        "id": "wrdlXTuY3rvb"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3-Functions and Modules\n",
+        "- Defining and calling functions\n",
+        "- Function arguments and return values\n",
+        "- Importing and creating modules\n",
+        "- The math and random modules"
+      ],
+      "metadata": {
+        "id": "s0GJ_IQMKBNg"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4- File Input and Output\n",
+        "- Reading and writing files\n",
+        "- Handling CSV and JSON files"
+      ],
+      "metadata": {
+        "id": "L0KdVnxmKL28"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5- Object-Oriented Programming\n",
+        "- Classes and objects\n",
+        "- Inheritance and polymorphism\n",
+        "- Encapsulation and abstraction"
+      ],
+      "metadata": {
+        "id": "tl_TfdI3KTt-"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6- Exception Handling\n",
+        "- Handling exceptions\n",
+        "- Raising exceptions\n",
+        "- The try and except keywords"
+      ],
+      "metadata": {
+        "id": "eZyPHY4lKbgp"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7- Advanced Topics\n",
+        "- Decorators\n",
+        "- Generators\n",
+        "- Regular expressions\n",
+        "- Iterators\n",
+        "- Lambda functions\n",
+        "- List comprehensions\n",
+        "- The itertools module\n",
+        "- The collections module"
+      ],
+      "metadata": {
+        "id": "-9bKcRkrKjW6"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8- Python Libraries\n",
+        "- NumPy\n",
+        "- Pandas\n",
+        "- Matplotlib\n",
+        "- Seaborn\n",
+        "- Scikit-learn\n",
+        "- TensorFlow"
+      ],
+      "metadata": {
+        "id": "XvFY_UsDKzmr"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9- Other Essential Libraries\n",
+        "- Requests\n",
+        "- BeautifulSoup\n",
+        "- Selenium"
+      ],
+      "metadata": {
+        "id": "hsQcyrAuK95C"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10- Project\n",
+        "- Creating a full-fledged project using the above technologies\n",
+        "- Project documentation, testing and deployment"
+      ],
+      "metadata": {
+        "id": "Rj7FWBFLLGys"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This syllabus can be adjusted based on your learning needs, level of expertise and available time."
+      ],
+      "metadata": {
+        "id": "79mww_ruLOQk"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Introduction to Python**\n",
+        "\n",
+        "1-History and versions of Python:\n",
+        "Python is a high-level, interpreted programming language that was first released in 1991 by Guido van Rossum. Since then, it has gone through several versions, with the most recent being Python 3.10.\n",
+        "Python 2.x and Python 3.x are different branches of the Python language. Python 2.x has been end-of-life since January 1, 2020, so it is recommended to use Python 3.x for new projects."
+      ],
+      "metadata": {
+        "id": "aXyf-bIILTz2"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This topic doesn't require any code, but you can check the version of python you are using by running the following command in the command prompt or terminal:"
+      ],
+      "metadata": {
+        "id": "fV-_yaNSORmf"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This will print the version of python installed on your system.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "vHiN56T6OqYl"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import platform\n",
+        "print(platform.python_version())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EDPiCg6cOWYB",
+        "outputId": "ff5ff457-a49d-4634-ff96-332d48995461"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3.8.10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2-Setting up a development environment:\n",
+        "In order to start coding in Python, you'll need to have a development environment set up on your computer. This includes installing Python itself, as well as a text editor or integrated development environment (IDE) to write and edit your code."
+      ],
+      "metadata": {
+        "id": "cjpRQXA4MZvj"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- To install Python, you can download the latest version from the official website (https://www.python.org/downloads/) and run the installer.\n",
+        "- For text editor, you can use any text editor like notepad++,sublime text or atom etc\n",
+        "- For IDE, you can use Pycharm, Jupyter notebook, IDLE etc"
+      ],
+      "metadata": {
+        "id": "DMEdi0oHMiVm"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "g22TzluXOoSQ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "N8R-AxcIOhyM"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This topic also doesn't require any code, but once you have a development environment set up, you can create a new Python file with the extension .py, for example hello.py, and start writing code in it"
+      ],
+      "metadata": {
+        "id": "WRoiYYBjO0fF"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3- Basic syntax and data types:\n",
+        "Python uses indentation to indicate the structure of code, rather than curly braces like some other programming languages. This means that code blocks, such as those within a for loop or if statement, are indicated by the level of indentation."
+      ],
+      "metadata": {
+        "id": "X_n31Ou_Mqln"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python has several basic data types, including:\n",
+        "\n",
+        "- int: represents a whole number, such as -1, 0, or 42\n",
+        "- float: represents a decimal number, such as 3.14 or -0.01\n",
+        "- str: represents a string of characters, such as \"hello\" or \"goodbye\"\n",
+        "- bool: represents a Boolean value, either True or False"
+      ],
+      "metadata": {
+        "id": "JixIXdrwMwS4"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Indentation\n",
+        "if 5 > 3:\n",
+        "    print(\"5 is greater than 3\")\n",
+        "    print(\"This line is indented\")\n",
+        "print(\"This line is not indented\")\n",
+        "\n",
+        "# Data types\n",
+        "x = 5\n",
+        "y = 3.14\n",
+        "z = \"hello\"\n",
+        "b = True\n",
+        "\n",
+        "print(type(x))  # int\n",
+        "print(type(y))  # float\n",
+        "print(type(z))  # str\n",
+        "print(type(b))  # bool\n"
+      ],
+      "metadata": {
+        "id": "2Enr65foPIwo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This code demonstrates the use of indentation to indicate code blocks, as well as the use of the type() function to check the data type of a variable."
+      ],
+      "metadata": {
+        "id": "SRqP-urSPJtg"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4-Variables and operators:\n",
+        "To store values in Python, you can use variables. A variable is a named location in memory where a value can be stored. A variable can be created by simply assigning a value to it using the assignment operator (=)."
+      ],
+      "metadata": {
+        "id": "D3_5N8gqM_wW"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Python has several basic operators, including:\n",
+        "\n",
+        "+: addition\n",
+        "\n",
+        "-: subtraction\n",
+        "\n",
+        "*: multiplication\n",
+        "\n",
+        "/: division\n",
+        "\n",
+        "%: modulus (remainder)\n",
+        "\n",
+        "**: exponentiation"
+      ],
+      "metadata": {
+        "id": "O1hJ40WRNx0W"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Variables\n",
+        "x = 5\n",
+        "y = 3\n",
+        "\n",
+        "# Operators\n",
+        "z = x + y  # 8\n",
+        "w = x - y  # 2\n",
+        "\n",
+        "print(z)\n",
+        "print(w)"
+      ],
+      "metadata": {
+        "id": "xi6vxpIWPWhZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This code demonstrates the use of variables to store values, and the use of basic operators to perform calculations."
+      ],
+      "metadata": {
+        "id": "2X6VTOVWPX5k"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5-Control structures (if-else, for, while):\n",
+        "\n",
+        "Control structures are used to control the flow of execution of your program.\n",
+        "\n",
+        "- if-else: execute a block of code if a certain condition is true, otherwise execute another block of code.\n",
+        "\n",
+        "- for: execute a block of code for a specified number of times, usually with a counter variable.\n",
+        "\n",
+        "- while: execute a block of code as long as a certain condition is true."
+      ],
+      "metadata": {
+        "id": "S3KzVH9MN4VJ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "You can use these control structures to make decisions, repeat actions, and perform other types of logic in your code.\n",
+        "\n",
+        "This is a basic introduction to the Python programming language, and you can use this as a starting point to build your skills and knowledge. As you continue learning, you'll encounter many more concepts and features of the language."
+      ],
+      "metadata": {
+        "id": "O0ZRGoKrOE_a"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# if-else\n",
+        "x = 5\n",
+        "if x > 3:\n",
+        "    print(\"x is greater than 3\")\n",
+        "else:\n",
+        "    print(\"x is not greater than 3\")\n",
+        "\n",
+        "# for\n",
+        "for i in range(5):\n",
+        "    print(i)\n",
+        "\n",
+        "# while\n",
+        "x = 5\n",
+        "while x > 0:\n",
+        "    print(x)\n",
+        "    x = x - 1"
+      ],
+      "metadata": {
+        "id": "bzOUMwDGPjYc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "This code demonstrates the use of the if-else statement to make decisions, the for loop to repeat actions a set number of times, and the while loop to repeat actions as long as a certain condition is true."
+      ],
+      "metadata": {
+        "id": "scBuB3pUOPAN"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Please keep in mind that these are simple examples and in the real-world scenario the code would be more complex and may require additional libraries and modules. As you continue learning and experimenting, you'll discover many more ways to use Python and its built-in functions."
+      ],
+      "metadata": {
+        "id": "ZrSFbZy3PoWQ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "A complete example:"
+      ],
+      "metadata": {
+        "id": "aQ_cYkDWPt3P"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import platform\n",
+        "\n",
+        "# History and versions of Python\n",
+        "print(\"Python version: \", platform.python_version())\n",
+        "\n",
+        "# Setting up a development environment\n",
+        "# Create a new file named \"example.py\" and start writing code\n",
+        "\n",
+        "# Basic syntax and data types\n",
+        "# Indentation\n",
+        "if 5 > 3:\n",
+        "    print(\"5 is greater than 3\")\n",
+        "    print(\"This line is indented\")\n",
+        "print(\"This line is not indented\")\n",
+        "\n",
+        "# Data types\n",
+        "x = 5\n",
+        "y = 3.14\n",
+        "z = \"hello\"\n",
+        "b = True\n",
+        "\n",
+        "print(\"x is of type: \", type(x))\n",
+        "print(\"y is of type: \", type(y))\n",
+        "print(\"z is of type: \", type(z))\n",
+        "print(\"b is of type: \", type(b))\n",
+        "\n",
+        "# Variables and operators\n",
+        "# Variables\n",
+        "a = 10\n",
+        "b = 20\n",
+        "\n",
+        "# Operators\n",
+        "c = a + b  # 30\n",
+        "d = a - b  # -10\n",
+        "e = a * b  # 200\n",
+        "f = a / b  # 0.5\n",
+        "\n",
+        "print(\"c = \", c)\n",
+        "print(\"d = \", d)\n",
+        "print(\"e = \", e)\n",
+        "print(\"f = \", f)\n",
+        "\n",
+        "# Control structures (if-else, for, while)\n",
+        "# if-else\n",
+        "x = 15\n",
+        "if x > 10:\n",
+        "    print(\"x is greater than 10\")\n",
+        "else:\n",
+        "    print(\"x is not greater than 10\")\n",
+        "\n",
+        "# for\n",
+        "for i in range(5):\n",
+        "    print(i)\n",
+        "\n",
+        "# while\n",
+        "x = 5\n",
+        "while x > 0:\n",
+        "    print(x)\n",
+        "    x = x - 1\n"
+      ],
+      "metadata": {
+        "id": "3RZGYsweQUQa"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "er_-Er5H81Ve"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "PBgoQaScnqzR"
+      }
+    }
+  ]
+}
